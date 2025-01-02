@@ -1,0 +1,33 @@
+body {
+  background-image: url(/foto1.jpg);
+  position: fixed;
+  background-position: center;
+  width: 100%;
+  margin: auto;
+}
+header {
+  background-color: #754403;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 105px;
+}
+.logo {
+  position: relative;
+  left: 30px;
+  top: 5px;
+  width: 100px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  font-size: 20px;
+  height: 65px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 65px;
+  list-style: none;
+}
